@@ -1,0 +1,8 @@
+prefix=/home/yuya/simulation_ws/devel
+
+Name: hokuyo_node
+Description: Description of hokuyo_node
+Version: 1.7.8
+Cflags: -I/home/yuya/simulation_ws/devel/include -I/home/yuya/simulation_ws/src/hokuyo_node/hokuyo/include
+Libs: -L/home/yuya/simulation_ws/devel/lib -llibhokuyo
+Requires: rosconsole
